@@ -1,50 +1,22 @@
-// TODO 1:
-// Create a Recipe component.
+<!DOCTYPE html>
+<html>
 
-function Recipe()
-{
+<head>
+    <title>React Card</title>
 
-    return(
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
-        <div className="Recipe">
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-            {/* Card 1 */}
+</head>
 
+<body>
 
+<div id="root"></div>
 
+<script type="text/babel" src="index.js"></script>
 
+</body>
 
-
-            {/* Card 2 */}
-
-
-
-
-
-
-            {/* Card 3 */}
-
-
-
-
-
-
-        </div>
-
-    );
-
-}
-
-// TODO 2:
-// Create the React Root
-
-const root = ReactDOM.createRoot(
-    document.getElementById("root")
-);
-
-// TODO 3:
-// Render the Recipe component.
-
-root.render(
-    <Recipe />
-);
+</html>
