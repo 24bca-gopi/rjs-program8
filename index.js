@@ -1,3 +1,4 @@
+// Card Component
 function Card({ children }) {
   return (
     <div
@@ -29,12 +30,8 @@ function Recipe() {
     >
       {/* Card 1 */}
       <Card>
-        <img
-          src="image1.jpg"
-          alt="Chicken Noodle Soup"
-          style={{ width: "100%", height: "180px", objectFit: "cover" }}
-        />
-        <div style={{ padding: "15px", background: "#ffd6c9" }}>
+        <img src="image1.jpg" alt="Chicken Noodle Soup" style={{ width: "100%", height: "180px", objectFit: "cover" }} />
+        <div style={{padding: "15px", background: "#ffd6c9"}}>
           <h2>Chicken Noodle Soup</h2>
           <ul>
             <li>2 tablespoons extra virgin olive oil</li>
@@ -52,7 +49,7 @@ function Recipe() {
       {/* Card 2 */}
       <Card>
         <img
-          src="image.jpeg"
+          src="image2.jpeg"
           alt="Curried Egg Salad"
           style={{ width: "100%", height: "180px", objectFit: "cover" }}
         />
@@ -72,7 +69,7 @@ function Recipe() {
       {/* Card 3 */}
       <Card>
         <img
-          src="image.jpeg"
+          src="image3.jpeg"
           alt="Oat Clusters"
           style={{ width: "100%", height: "180px", objectFit: "cover" }}
         />
@@ -97,4 +94,3 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // Render
 root.render(<Recipe />);
-
